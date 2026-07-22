@@ -163,3 +163,5 @@ class GEONMIGeoPinEngine:
 if __name__ == "__main__":
     engine = GEONMIGeoPinEngine()
     engine.verify_invariants()
+    engine.run_torus_simulation()
+
